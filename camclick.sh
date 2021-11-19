@@ -25,11 +25,7 @@ fi
 trap 'printf "\n";stop' 2
 
 banner() {
-printf"   ___                        ___ _ _      _ \n"
-printf"  / __\__ _ _ __ ___         / __\ (_) ___| | __\n"
-printf" / /  / _` | '_ ` _ \ _____ / /  | | |/ __| |/ /\n"
-printf"/ /__| (_| | | | | | |_____/ /___| | | (__|   < \n"
-printf"\____/\__,_|_| |_| |_|     \____/|_|_|\___|_|\_\\n"
+   printf "\e[1;92m   ▁ ▂ ▄ ▅ ▆ ▇ █ Ｃａｍ－Ｃｌｉｃｋ █ ▇ ▆ ▅ ▄ ▂ ▁      \e[0m\n"
 
 printf " \e[1;77m tool created by Mayank Rajput [hackelite01]\e[0m \n"
 
